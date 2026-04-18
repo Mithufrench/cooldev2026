@@ -1,0 +1,10 @@
+# K8s Playground
+Simple local Kubernetes setup I use every day.
+
+**What it does**  
+I run a voting app (or any app) on minikube/kind.
+
+**How to run (2 commands)**
+```bash
+minikube start
+kubectl apply -f app.yaml
